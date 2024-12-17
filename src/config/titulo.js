@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'Introducción a la macroeconomía'
