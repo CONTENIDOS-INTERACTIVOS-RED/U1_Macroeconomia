@@ -15,44 +15,26 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Unidad',
+        titulo: 'Concepto de la Macroeconomía y objetivos principales',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Título de segundo nivel',
+            titulo: 'Concepto de la Macroeconomía',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Acordeón',
+            titulo: 'Concepto de Microeconomía',
             hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Slider',
+            titulo: 'Objetivos de la macroeconomía',
             hash: 't_1_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Pestañas',
-            hash: 't_1_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Infografia interactiva',
-            hash: 't_1_6',
           },
         ],
       },
@@ -60,37 +42,37 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Unidad',
+        titulo: 'Diferencia entre microeconomía y macroeconomía',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Texto destacado',
+            titulo: 'Visión amplia de la microeconomía y la macroeconomía',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Llamado a la acción - Recursos externos',
+            titulo: 'Diferencias entre microeconomía y macroeconomía',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Audios',
+            titulo: 'Aplicaciones y políticas',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Listado',
+            titulo: 'Métodos de análisis',
             hash: 't_2_4',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.5',
-            titulo: 'Línea de tiempo',
+            titulo: 'Ejemplos de los enfoques Micro y macroeconómicos',
             hash: 't_2_5',
           },
         ],
@@ -99,20 +81,33 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Unidad',
+        titulo:
+          'Variables macroeconómicas: PIB, inflación, desempleo, balanza de pagos',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo: 'Carrusel',
+            titulo: 'Producto Interno Bruto (PIB)',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Tablas',
+            titulo: 'Inflación',
             hash: 't_3_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.3',
+            titulo: 'Desempleo',
+            hash: 't_3_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '3.4',
+            titulo: 'Balanza de pagos',
+            hash: 't_3_4',
           },
         ],
       },
@@ -154,109 +149,85 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'Zevallos Avilés, G. (2016). Macroeconomía fundamental I. Difusora Larousse - Ediciones Pirámide.',
+      link: 'https://elibro.net/es/lc/tecnologicodeloriente/titulos/49174',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'Tavera Camacho, I. (2020). Panorámica de la macroeconomía. Grupo Editorial Éxodo.',
+      link: 'https://elibro.net/es/lc/tecnologicodeloriente/titulos/130333',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
+        'Sánchez Campillo, J. (2015). Macroeconomía: cuestiones y ejercicios. Difusora Larousse - Ediciones Pirámide.',
+      link: 'https://elibro.net/es/lc/tecnologicodeloriente/titulos/49019',
     },
     {
       referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'Eggers, F. G. (2016). Elementos de micro y macroeconomía. Editorial Maipue.',
+      link: 'https://elibro.net/es/lc/tecnologicodeloriente/titulos/77331',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
+        'Torres Chacón, J. (2016). Apuntes de macroeconomía avanzada. Servicio de Publicaciones y Divulgación Científica de la Universidad de Málaga.',
+      link: 'https://elibro.net/es/lc/tecnologicodeloriente/titulos/60697',
     },
     {
       referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
-    },
-    {
-      referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
-    },
-    {
-      referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'Rodríguez Galván, J. Y. (2023). Macroeconomía: teoría y ejercicios (1 ed.). Grupo Editorial Éxodo.',
+      link: 'https://elibro.net/es/lc/tecnologicodeloriente/titulos/234711',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Balanza de pagos',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'Registra todas las transacciones económicas de un país con el resto del mundo, incluyendo exportaciones, importaciones, inversiones y transferencias. Su análisis permite evaluar la estabilidad financiera de un país.',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Desempleo',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Situación en la que una parte de la población económicamente activa no tiene empleo y está buscando trabajo. Su medición es un indicador clave del rendimiento del mercado laboral.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Economía',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'Ciencia que estudia la producción, distribución y consumo de bienes y servicios, y cómo los recursos limitados se asignan para satisfacer las necesidades humanas. Se divide en microeconomía y macroeconomía.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Macroeconomía',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'Rama de la economía que estudia los agregados económicos a nivel nacional o global, como el producto nacional, el ingreso, el empleo, la inflación y la balanza de pagos.',
     },
     {
-      termino: 'Moda',
+      termino: 'Microeconomía',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'Parte de la economía que estudia el comportamiento de los agentes individuales, como consumidores, empresas y trabajadores, y cómo interactúan en mercados específicos.',
     },
     {
-      termino: 'Diseña',
+      termino: 'Inflación',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Aumento generalizado y sostenido en los precios de bienes y servicios en una economía durante un periodo prolongado. Es un indicador clave de la estabilidad económica y el poder adquisitivo.',
     },
     {
-      termino: 'DIseño',
+      termino: 'PIB (Producto Interno Bruto)',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
+        'Valor total de los bienes y servicios producidos dentro de un país en un periodo determinado. Es uno de los principales indicadores de la actividad económica.',
     },
     {
-      termino: 'Tipología',
+      termino: 'Política económica',
       significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
+        'Conjunto de medidas adoptadas por el gobierno para influir en el comportamiento económico de un país. Incluye políticas fiscales, monetarias, comerciales y laborales.',
     },
     {
-      termino: 'Bidimensional',
+      termino: 'Política fiscal',
       significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
+        'Estrategia del gobierno que involucra el manejo de los impuestos y el gasto público para influir en la economía, como el control de la inflación, el desempleo y el crecimiento económico.',
     },
     {
-      termino: 'Interés Inferior del menor',
+      termino: 'Política monetaria',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'Acciones llevadas a cabo por un banco central para controlar la cantidad de dinero en circulación, las tasas de interés y la oferta de crédito, con el objetivo de garantizar la estabilidad económica.',
     },
   ],
   complementario: [
