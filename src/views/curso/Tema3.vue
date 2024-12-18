@@ -1,85 +1,237 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'NOMBRE TEMA 3'")
+  BannerInterno(:subTitulo="'Variables macroeconómicas: PIB, inflación, desempleo, balanza de pagos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    
-    #t_3_1.titulo-segundo
-      h2 3.1 Carrusel
+    p.mb-5 Las variables macroeconómicas son los indicadores que se utilizan para medir el desempeño de una economía a nivel global. 
     .row.justify-content-center.mb-5
-      .col-11.col-md-4.col-xl-5.pe-xl-8
-        figure.mb-4.mb-md-0
-          img(src='@/assets/componentes/test-img-carousel.png', alt='Texto que describa la imagen')
-      .col-11.col-md-8.col-xl-7
-        SlyderF(columnas="col-12 col-lg-6")
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 54 de 1924
-                p.text-center Permitió el matrimonio civil entre católicos que declaran  haberse separado de la Iglesia.
-          .row.py-4.px-3.h-100
-            .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
-              .row.justify-content-center
-                .col-5.col-md-4.mb-4
-                  img(src='@/assets/componentes/test-slider.svg' alt='AvatarTop')
-                h3.text-center.mb-4 Ley 8 de 1922
-                p.text-center Introdujo la separación de bienes.
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src="@/assets/curso/t3/1.png", alt="")
+      .col-sm-12.col-lg-8
+        .bg-9.p-4
+          p.mb-0 Estas variables son fundamentales para analizar la salud económica de un país y para la formulación de políticas públicas que puedan promover el desarrollo económico y el bienestar social; la medición de estas variables permite a los economistas, gobiernos y organizaciones internacionales comprender cómo se está comportando la economía, identificar desequilibrios y tomar decisiones informadas para fomentar el crecimiento económico sostenible. 
+    p.mb-5 En este contexto, algunas de las variables macroeconómicas más relevantes son el Producto Interno Bruto (PIB), la inflación, el desempleo y la balanza de pagos, cada una con su función específica y su relación directa con las políticas económicas de los gobiernos.
+    .titulo-figura.mb-2
+        h5 Figura 1. 
+        span Variables económicas 
+    .row.justify-content-center.mb-5
+      .col-sm-12.col-lg-8
+        figure(data-aos="fade-up").mb-5
+          img(src='@/assets/curso/t3/2.svg', alt='').mb-0
 
-    #t_3_2.titulo-segundo
-      h2 3.2 Tablas
 
-    .row
-      .col-xl-9
-        .tabla-a.mb-5
-          table
-            caption Leyenda de la tabla
-            thead
-              tr
-                th Ventajas
-                th Desafios
-            tbody
-              tr
-                td <strong>Flexibilidad de tiempo y lugar:</strong>Los estudiantes pueden acceder a los cursos desde cualquier lugar y en el momento que mejor se ajuste a su agenda.
-                td <strong>Autogestión   del tiempo:</strong>Requiere que los estudiantes sean disciplinados y tengan la capacidad de organizar su tiempo de manera efectiva.
-              tr
-                td <strong>Acceso global: </strong>Cualquier persona con conexión a internet puede acceder a una amplia gama de programas y cursos, sin importar su ubicación geográfica.
-                td <strong>Autogestión del tiempo: </strong>Falta de interacción cara a cara: La ausencia de contacto físico puede disminuir la sensación de comunidad y la interacción espontánea con compañeros e instructores.
-              tr
-                td <strong>Aprendizaje a ritmo propio: </strong>Los estudiantes pueden avanzar a su propio ritmo, revisando el material tantas veces como sea necesario.
-                td <strong>Requiere mayor motivación: </strong>La autonomía que ofrece el aprendizaje en línea también exige que los estudiantes mantengan su motivación sin la estructura tradicional de clases presenciales.
-              tr
-                td <strong>Variedad de recursos digitales: </strong>Los estudiantes tienen acceso a videos, documentos, foros, evaluaciones automatizadas y otros recursos interactivos que enriquecen la experiencia de aprendizaje.
-                td <strong></strong>Distracciones en el entorno personal: Al estudiar desde casa o en otros entornos no tradicionales, los estudiantes pueden enfrentarse a más distracciones que en un aula presencial.
-              tr
-                td <strong>Menor costo: </strong>El aprendizaje en línea suele ser más asequible, ya que elimina los costos de transporte, alojamiento y materiales impresos.
-                td <strong>Dependencia de la tecnología: </strong>Problemas técnicos, como una conexión a internet inestable o falta de acceso a dispositivos adecuados, pueden interrumpir el proceso de aprendizaje.
-    .row.material-complementario
-      h2 MATERIAL COMPLEMENTARIO
-      .col-12.col-md-6.col-lg-7
-        p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Peña, G. E. G. (2021). Las fuentes del derecho. Lecciones de introducción al derecho, 189
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Suárez, E. (2020). Introducción al derecho. Ediciones UNL
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span De Sousa, M. T. (2019). Introducción al derecho. Temis 
-        p.d-flex.my-4
-          img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-          span Nieto, A. (2019). Una introducción al derecho.
-      .col-12.col-md-6.col-lg-3.offset-lg-1
-        figure
-          img(src='@/assets/componentes/material-complementario.svg', alt='Texto que describa la imagen')
+
+
+    #t_3_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.1] Producto Interno Bruto (PIB)
+
+    .bg-8.p-4.mb-5
+      p.mb-3 Es una de las variables más importantes en la macroeconomía, refleja el valor total de los bienes y servicios finales producidos en un país durante un periodo determinado, generalmente un año o un trimestre. El PIB se utiliza como indicador del tamaño y la salud de una economía, y su crecimiento; tiene implicaciones significativas en la política económica y social de un país. Un aumento en el PIB generalmente se relaciona con un crecimiento económico, mientras que una disminución puede señalar una recesión o desaceleración económica.
+      p.mb-0.fw-bold El cálculo del PIB, puede realizarse de tres maneras principales: 
+    
+
+    .bg-full-width.bg-fondo-slider-2.mb-5(data-aos="flip-up")
+      .p-4.p-md-5
+        .row.justify-content-center.mb-5
+          .col-sm-12.col-lg-4.pe-xl-8.d-none.d-lg-block
+            figure.mb-0
+              img(src='@/assets/curso/t3/3.svg', alt='Texto que describa la imagen')
+          .col-11.col-md-8.col-xl-7
+            SlyderF(columnas="col-12 col-lg-6")
+              .row.py-4.px-3.h-100
+                .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
+                  .row.justify-content-center
+                    .col-6.col-md-4.mb-4
+                      img(src='@/assets/curso/t3/4.svg' alt='AvatarTop')
+                    p.mb-0.text-center Por el enfoque de la producción.
+              .row.py-4.px-3.h-100
+                .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
+                  .row.justify-content-center
+                    .col-6.col-md-4.mb-4
+                      img(src='@/assets/curso/t3/5.svg' alt='AvatarTop')
+                    p.mb-0.text-center Por el enfoque del ingreso.
+              .row.py-4.px-3.h-100
+                .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
+                  .row.justify-content-center
+                    .col-6.col-md-4.mb-4
+                      img(src='@/assets/curso/t3/6.svg' alt='AvatarTop')
+                    p.mb-0.text-center Por el enfoque del gasto.
+
+    p.mb-3 Cada uno de estos métodos proporciona una visión diferente del proceso económico, pero todos apuntan a medir el mismo valor total de la producción en la economía. 
+    p.mb-3 El PIB ajustado por inflación se conoce como el PIB real, mientras que el PIB nominal se refiere al valor total sin ajustes por cambios en los precios (Zevallos Avilés, 2016).
+    .p-4.bg-6.mb-5
+      p.mb-0 #[b El PIB] también es crucial para la comparación entre economías, dado que permite evaluar el nivel de desarrollo de un país y su capacidad para generar empleo, inversión y riqueza. Es una herramienta útil para la toma de decisiones en materia de política económica, especialmente en la implementación de políticas fiscales y monetarias.
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-sm-12.col-lg-8
+        .bg-color-white.shadow-soft.py-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-md-auto.d-none.d-lg-block
+              img(src="@/assets/template/bg-icono-video.svg", style="width: 90px;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Para conocer más sobre el tema, lo invitamos a ver el siguiente video:
+                  p.mb-0 Solopapelyboli (2023). 2.1 Cálculo del PIB. (video). YouTube
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href='https://youtu.be/yblqORM7BGc?si=zDfccDci3cl-Fs28' target="_blank")
+                    span Ver Video
+                    i.fas.fa-arrow-right
+    
+    
+    #t_3_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.2] Inflación
+    p.mb-5 Es un indicador macroeconómico que se refiere al aumento generalizado y sostenido de los precios de los bienes y servicios en una economía durante un periodo de tiempo prolongado. 
+    .bg-3.mb-5(data-aos="flip-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto.d-none.d-lg-block
+            img(src='@/assets/curso/t3/7.png', alt='')
+        .col-lg
+          .p-4
+            p.mb-0 Este fenómeno implica una pérdida del poder adquisitivo de la moneda, lo que afecta negativamente a los consumidores, pues con la misma cantidad de dinero podrán adquirir menos bienes y servicios.
+
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-sm-12.col-lg-9
+        p.mb-3 La tasa de inflación se calcula generalmente utilizando índices de precios como el Índice de Precios al Consumidor (IPC), que mide la variación en los precios de una canasta representativa de bienes y servicios consumidos por los hogares.
+        p.mb-3.bg-6.p-3 La inflación moderada puede ser un signo de una economía en crecimiento, debido a que indica una demanda creciente, pero cuando la inflación es excesiva (hiperinflación), genera inestabilidad económica, disminuyendo el valor de los ahorros y aumentando la incertidumbre (Eggers, 2016).
+        p.mb-0 Uno de los compromisos de los gobiernos y los bancos centrales, es el de controlar la inflación a través de políticas monetarias y fiscales. 
+      .col-sm-12.col-lg-3.d-none.d-lg-block
+        img(src='@/assets/curso/t3/8.png', alt='')
+
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-12
+        .bg-1.p-4
+          .row.align-items-center
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/t3/9.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Un nivel adecuado de inflación incentiva el consumo y la inversión, mientras que una inflación excesiva o muy baja, es perjudicial para la economía en su conjunto. 
+
+    p.mb-5 Para controlarla, se utilizan herramientas como la modificación de las tasas de interés, la oferta monetaria y el control del gasto público (Sánchez Campillo, 2015).
+    .row.justify-content-center.align-items-center.mb-5
+          .col-sm-12.col-lg-8
+            .bg-color-white.shadow-soft
+              .row.justify-content-around.align-items-center.py-4.px-5
+                .col-md-auto.d-none.d-lg-block
+                  img(src="@/assets/template/bg-icono-link.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      h3.mb-1 Para profundizar en este tema, lo invitamos a leer el siguiente artículo:
+                      p.mb-0 Gutiérrez Andrade, O. & Zurita Moreno, A. (2006). Sobre la inflación. PERSPECTIVAS, 9(3), pp. 81-115. 
+                    .col-sm-auto
+                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/anexo_3.pdf')" target="_blank")
+                        span Descargar
+                        i.fas.fa-arrow-right
+
+
+    #t_3_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.3] Desempleo
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-sm-12.col-lg-4.d-none.d-lg-block
+        img(src="@/assets/curso/t3/10.png", alt="")
+      .col-sm-12.col-lg-8
+        p.mb-3 Es una variable macroeconómica que refleja la cantidad de personas que están dispuestas y disponibles para trabajar, pero que no pueden encontrar empleo. 
+        p.mb-3 La tasa de desempleo es uno de los indicadores más importantes para medir el bienestar de una economía, ya que está directamente relacionado con la capacidad productiva y la eficiencia de los recursos humanos de un país.
+        p.mb-0.fw-bold El desempleo se clasifica en tres categorías: 
+
+    .bg-full-width.bg-fondo-slider.mb-5(data-aos="flip-up")
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white
+          .row.align-items-center.p-4.p-md-5
+            .col-sm-12.col-lg-7
+              h5 Desempleo cíclico
+              p El que se produce durante las recesiones económicas, cuando la demanda agregada disminuye.
+            .col-lg-5.d-none.d-lg-block
+              figure
+                img(src='@/assets/curso/t3/11.png', alt='Texto que describa la imagen')
+          .row.align-items-center.p-4.p-md-5
+            .col-sm-12.col-lg-7
+              h5 Desempleo estructural
+              p El que ocurre cuando hay desajustes entre las habilidades de los trabajadores y las necesidades del mercado laboral.
+            .col-lg-5.d-none.d-lg-block
+              figure
+                img(src='@/assets/curso/t3/12.png', alt='Texto que describa la imagen')
+          .row.align-items-center.p-4.p-md-5
+            .col-sm-12.col-lg-7
+              h5 Desempleo friccional
+              p El que refleja el tiempo de transición entre empleos o cambios en las condiciones laborales.
+            .col-lg-5.d-none.d-lg-block
+              figure
+                img(src='@/assets/curso/t3/13.png', alt='Texto que describa la imagen')
+    
+    
+    p.mb-3 Un nivel elevado de desempleo es un signo de una economía ineficiente, afectando negativamente al crecimiento económico conllevando al aumento de la pobreza y generando tensiones sociales.
+    p.mb-3 Caso contrario, un nivel muy bajo de desempleo refleja una economía sobrecalentada, lo que podría llevar a la inflación. 
+    p.mb-5 La política económica debe buscar un equilibrio entre estos extremos, promoviendo el pleno empleo sin generar inflación excesiva (Eggers, 2016).
+    .bg-full-width.bg-4.mb-lg-5(data-aos="flip-up")
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-7
+            h2.mb-4  Lo invitamos a leer los siguientes artículos, los culaes le permitirán tener una mejor comprensión del tema:
+            p.mb-4 Pugliese, E. (2000). Qué es el desempleo. Política y sociedad, 34, pp. 59-67.
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> ¿Qué es el desempleo?.
+            p.mb-4 Arango, L. E. (2001). El desempleo en Colombia. Borradores de Economía, 176.
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/anexo_5.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> El desempleo en Colombia.
+          .col-lg-5.d-none.d-lg-block
+              img(src='@/assets/curso/t3/14.png', alt='')
+
+    #t_3_4.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.4] Balanza de pagos
+    p.mb-5 La balanza de pagos es un registro contable de todas las transacciones económicas realizadas entre un país y el resto del mundo durante un periodo determinado. Esta variable refleja las exportaciones e importaciones de bienes y servicios, los movimientos de capital y la transferencia de recursos entre el país y el exterior. 
+    p.mb-5 Se divide en dos grandes cuentas: 
+    .row.justify-content-center.align-items-stretch.mb-5
+      .col-lg-6.mb-4
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/t3/15.png" alt="")
+          .custom-image-card__text.p-4
+            h4.mb-2 Cuenta corriente
+            p.mb-0 Incluye el comercio de bienes, servicios, ingresos y transferencias.
+      .col-lg-6.mb-4
+        .custom-image-card.h-100
+          img.custom-image-card__image(src="@/assets/curso/t3/16.png" alt="")
+          .custom-image-card__text.p-4
+            h4.mb-2 Cuenta de capital y financiera
+            p.mb-0 Muestra los flujos de inversión y financiamiento.
+    p.mb-5 Una balanza de pagos equilibrada es aquella en la que las exportaciones e importaciones están en equilibrio, es decir, el país no tiene un déficit o superávit excesivo. 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-lg-12
+        .bg-1.p-4
+          .row.align-items-center
+            .col-lg-auto.d-none.d-lg-block
+              img(src="@/assets/curso/t3/17.svg", style="max-width: 90px").mx-auto
+            .col-lg
+              p.mb-0 Un déficit en la balanza de pagos puede generar presión sobre la moneda nacional, porque implica que el país está importando más de lo que exporta y podría necesitar financiamiento externo. Un superávit puede ser muestra de una economía competitiva y saludable, (Sánchez Campillo, 2015).
+    p.mb-5 El análisis de la balanza de pagos es necesario para la formulación de políticas monetarias y fiscales, permitiendo identificar desequilibrios en la economía externa y prever las consecuencias de los movimientos de capitales y las fluctuaciones del tipo de cambio (Tavera Camacho, 2020).
+    .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
+      .col-sm-12.col-lg-8
+        .bg-color-white.shadow-soft.py-4.px-lg-5
+          .row.justify-content-around.align-items-center
+            .col-md-auto.d-none.d-lg-block
+              img(src="@/assets/template/bg-icono-video.svg", style="width: 90px;")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3.mb-1 Para conocer más sobre el tema, lo invitamos a ver el siguiente video:
+                  p.mb-0 Solopapelyboli (2024). La balanza de pagos (video). YouTube
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(href='https://youtu.be/RET50ZTLrUA?si=oHVVJJZeL-_E7_yJ' target="_blank")
+                    span Ver Video
+                    i.fas.fa-arrow-right
+    .row.justify-content-center.mb-5(data-aos="flip-up")
+      .col-sm-12.col-lg-9
+        p.mb-3 Como conclusión, logramos exponer como la macroeconomía y el análisis de sus variables permiten a los gobiernos, instituciones internacionales, empresas y ciudadanos tener una mejor comprensión de los procesos económicos y de cómo afectan al bienestar general. 
+        p.mb-3.bg-6.p-3 El estudio de la interacción de estas variables macroeconómicas y su gestión mediante políticas económicas adecuadas es necesario para asegurar un desarrollo sostenible, evitar crisis económicas y promover una mayor equidad en la distribución de los beneficios del crecimiento económico.  
+        p.mb-0 Así, la macroeconomía no solo es una herramienta de análisis económico, sino también una base sobre la cual se pueden construir las decisiones políticas y económicas que guían el futuro de las sociedades.
+      .col-sm-12.col-lg-3.d-none.d-lg-block
+        img(src='@/assets/curso/t3/18.png', alt='')
+
 </template>
 
 <script>

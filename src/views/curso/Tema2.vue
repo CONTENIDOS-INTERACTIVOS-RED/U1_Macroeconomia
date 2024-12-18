@@ -161,13 +161,13 @@
     p.mb-3 Finalicemos este tema, conociendo algunos ejemplos de los enfoques micro y macroeconómicos:
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-6.mb-4
-        .custom-image-card.h-100
+        .custom-image-card.h-100.text-center
           img.custom-image-card__image(src="@/assets/curso/t2/12.png" alt="")
           .custom-image-card__text.p-4
             h4.mb-2 Microeconomía
             p.mb-0 Un ejemplo de este enfoque, es el de un mercado local, en el que el precio de un producto puede afectar en la decisión de compra de los consumidores de este producto.
       .col-lg-6.mb-4
-        .custom-image-card.h-100
+        .custom-image-card.h-100.text-center
           img.custom-image-card__image(src="@/assets/curso/t2/13.png" alt="")
           .custom-image-card__text.p-4
             h4.mb-2 Macroeconomía
