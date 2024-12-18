@@ -12,6 +12,10 @@
     border-radius: 10px
   &-6
     background-color: #E3FBF2
+  &-7
+    background-color: #D4DDF0
+  &-8
+    background-color: #FEF8E7
 .banner-principal-decorativo
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
@@ -55,9 +59,55 @@
   border-color: #99CED6 !important
 .shadow-soft 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05);
-
+i.fas.fa-circle.color-acento-contenido
+  color: $color-acento-contenido
+  font-size: 12px
 .bg-color-white
-    background-color: #fff;
+    background-color: #fff
+.linea-tiempo-d__item__content__title,
+.linea-tiempo-d__item__number
+    background-color: #F5FDFA !important
+.linea-tiempo-d.color-acento-contenido .linea-tiempo-d__item--selected .linea-tiempo-d__item__number
+  background-color: #A4F0D6 !important
+.linea-tiempo-d__item__content__title.active
+  background-color: #A4F0D6 !important
+.linea-tiempo-d__item__content__slot
+  background-color: #E3FBF2 !important
+
+// Variables#0c1512#0c1512
+$custom-card-border-radius: 0px
+$custom-card-shadow: 0 4px 8px rgba(0,0,0,0.1)
+$custom-card-text-bg: #FFF
+$custom-card-text-padding: 15px
+$custom-card-text-font-size: 14px
+$custom-card-img-height: 322px
+.custom-image-card
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: $custom-card-img-height
+    object-fit: cover
+
+.custom-image-card-2
+  border-radius: $custom-card-border-radius
+  overflow: hidden
+  box-shadow: $custom-card-shadow
+  height: 100%
+  background-color: $custom-card-text-bg
+  transition: transform 0.3s ease 
+  cursor: pointer
+  &:hover
+    transform: scale(1.01)
+  &__image
+    height: 224px
+    object-fit: cove
 // Full Width Background
 .bg-full-width
   background-size: cover
