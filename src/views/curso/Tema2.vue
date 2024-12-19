@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'Diferencia entre microeconomía y macroeconomía'")
+  BannerInterno(:subTitulo="'2. Diferencia entre microeconomía y macroeconomía'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5(data-aos="flip-up")
     p.mb-5 La economía, como disciplina, se divide en dos grandes ramas: microeconomía y macroeconomía. Ambas áreas, aunque relacionadas, se enfocan en diferentes aspectos de la actividad económica. 
     .row.justify-content-center.align-items-stretch.mb-5

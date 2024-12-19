@@ -1,6 +1,6 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'Variables macroeconómicas: PIB, inflación, desempleo, balanza de pagos'")
+  BannerInterno(:subTitulo="'3. Variables macroeconómicas: PIB, inflación, desempleo, balanza de pagos'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     p.mb-5 Las variables macroeconómicas son los indicadores que se utilizan para medir el desempeño de una economía a nivel global. 
     .row.justify-content-center.mb-5
