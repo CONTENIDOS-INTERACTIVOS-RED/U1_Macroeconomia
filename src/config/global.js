@@ -187,7 +187,7 @@ export default {
     {
       termino: 'Desempleo',
       significado:
-        'Situación en la que una parte de la población económicamente activa no tiene empleo y está buscando trabajo. Su medición es un indicador clave del rendimiento del mercado laboral.',
+        'Situación en la que una parte de la población económicamente activa, no tiene empleo y está buscando trabajo. Su medición es un indicador clave del rendimiento del mercado laboral.',
     },
     {
       termino: 'Economía',
@@ -207,12 +207,12 @@ export default {
     {
       termino: 'Inflación',
       significado:
-        'Aumento generalizado y sostenido en los precios de bienes y servicios en una economía durante un periodo prolongado. Es un indicador clave de la estabilidad económica y el poder adquisitivo.',
+        'Aumento generalizado y sostenido en los precios de bienes y servicios, en una economía, durante un periodo prolongado. Es un indicador clave de la estabilidad económica y el poder adquisitivo.',
     },
     {
       termino: 'PIB (Producto Interno Bruto)',
       significado:
-        'Valor total de los bienes y servicios producidos dentro de un país en un periodo determinado. Es uno de los principales indicadores de la actividad económica.',
+        'Valor total de los bienes y servicios producidos dentro de un país, en un periodo determinado. Es uno de los principales indicadores de la actividad económica.',
     },
     {
       termino: 'Política económica',

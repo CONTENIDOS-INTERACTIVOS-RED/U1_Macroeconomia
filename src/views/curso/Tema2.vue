@@ -9,7 +9,7 @@
           img.custom-image-card__image(src="@/assets/curso/t2/1.png" alt="")
           .custom-image-card__text.p-4.shadow-soft
             h5.mb-2.text-center Microeconomía
-            p.mb-4 Estudia las decisiones de los individuos, las empresas y los mercados a pequeña escala.
+            p.mb-4 Estudia las decisiones de los individuos, las empresas y los mercados, a pequeña escala.
       .col-sm-12.col-lg-6
         .custom-image-card-2.h-100
           img.custom-image-card__image(src="@/assets/curso/t2/2.png" alt="")
@@ -36,15 +36,15 @@
           .row.align-items-center.p-4.p-md-5
             .col-sm-12.col-lg-7
               h5 Microeconomía
-              p.mb-3 Enfoca su estudio en las decisiones económicas de las personas, los hogares y las empresas, así como su relación con los mercados. Su propósito es entender cómo las fuerzas de oferta y demanda determinan los precios de los bienes y servicios, así como el comportamiento de los agentes económicos a nivel individual. 
-              p.mb-0 Esta área analiza la distribución de los recursos y cómo las decisiones de compra y producción afectan la asignación de estos recursos dentro de la economía. Dentro de su estudio se incluyen el análisis de los costos, la maximización de la utilidad y la eficiencia en la producción (eggers, 2016).
+              p.mb-3 Enfoca su estudio en las decisiones económicas de las personas, los hogares y las empresas, así como su relación con los mercados. Su propósito es entender cómo las fuerzas de oferta y demanda, determinan los precios de los bienes y servicios, así como el comportamiento de los agentes económicos a nivel individual. 
+              p.mb-0 Esta área analiza la distribución de los recursos y cómo las decisiones de compra y producción afectan la asignación de estos recursos, dentro de la economía. Dentro de su estudio se incluyen el análisis de los costos, la maximización de la utilidad y la eficiencia en la producción (eggers, 2016).
             .col-lg-5.d-none.d-lg-block
               figure
                 img(src="@/assets/curso/t2/4.png")
           .row.align-items-center.p-4.p-md-5
             .col-lg-7
               h5 Macroeconomía
-              p.mb-3 Tiene un enfoque más amplio, interesado en el comportamiento global de la economía. Examina el producto interno bruto (PIB), el empleo, la inflación y las tasas de interés. Este campo se enfoca en las políticas que pueden influir en la economía en su conjunto, como la política fiscal y la política monetaria, y busca comprender cómo los cambios en estos indicadores afectan el bienestar general de la sociedad. 
+              p.mb-3 Tiene un enfoque más amplio, interesado en el comportamiento global de la economía. Examina el producto interno bruto (PIB), el empleo, la inflación y las tasas de interés. Este campo se enfoca en las políticas que pueden influir en la economía en su conjunto, como la política fiscal y la política monetaria, y busca comprender cómo los cambios en estos indicadores, afectan el bienestar general de la sociedad. 
               p.mb-0  La macroeconomía es requerida para la toma de decisiones a nivel gubernamental y en la planificación económica de un país (sánchez campillo, 2015).
             .col-lg-5.d-none.d-lg-block
               figure

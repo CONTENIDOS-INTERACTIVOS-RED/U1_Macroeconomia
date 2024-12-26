@@ -38,26 +38,26 @@
           .col-11.col-md-8.col-xl-7
             SlyderF(columnas="col-12 col-lg-6")
               .row.py-4.px-3.h-100
-                .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
+                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   .row.justify-content-center
                     .col-6.col-md-4.mb-4
                       img(src='@/assets/curso/t3/4.svg' alt='AvatarTop')
-                    p.mb-0.text-center Por el enfoque de la producción.
+                  p.mb-0.text-center Por el enfoque de la producción.
               .row.py-4.px-3.h-100
-                .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
+                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   .row.justify-content-center
                     .col-6.col-md-4.mb-4
                       img(src='@/assets/curso/t3/5.svg' alt='AvatarTop')
-                    p.mb-0.text-center Por el enfoque del ingreso.
+                  p.mb-0.text-center Por el enfoque del ingreso.
               .row.py-4.px-3.h-100
-                .col-10.offset-1.offset-md-0.col-md-12.shadow-app.p-3.py-md-5.px-md-4
+                .col-sm-12.col-lg-12.shadow-app.p-3.py-md-5.px-md-4.bg-color-white
                   .row.justify-content-center
                     .col-6.col-md-4.mb-4
                       img(src='@/assets/curso/t3/6.svg' alt='AvatarTop')
-                    p.mb-0.text-center Por el enfoque del gasto.
+                  p.mb-0.text-center Por el enfoque del gasto.
 
-    p.mb-3 Cada uno de estos métodos proporciona una visión diferente del proceso económico, pero todos apuntan a medir el mismo valor total de la producción en la economía. 
-    p.mb-3 El PIB ajustado por inflación se conoce como el PIB real, mientras que el PIB nominal se refiere al valor total sin ajustes por cambios en los precios (Zevallos Avilés, 2016).
+    p.mb-3 Cada uno de estos métodos proporciona una visión diferente del proceso económico, pero todos apuntan a medir el mismo valor total de la producción, en la economía. 
+    p.mb-3 El PIB ajustado por inflación se conoce como el PIB real, mientras que el PIB nominal se refiere al valor total sin ajustes, por cambios en los precios (Zevallos Avilés, 2016).
     .p-4.bg-6.mb-5
       p.mb-0 #[b El PIB] también es crucial para la comparación entre economías, dado que permite evaluar el nivel de desarrollo de un país y su capacidad para generar empleo, inversión y riqueza. Es una herramienta útil para la toma de decisiones en materia de política económica, especialmente en la implementación de políticas fiscales y monetarias.
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
@@ -79,18 +79,18 @@
     
     #t_3_2.titulo-segundo(data-aos="flip-up")
       h2 #[span 3.2] Inflación
-    p.mb-5 Es un indicador macroeconómico que se refiere al aumento generalizado y sostenido de los precios de los bienes y servicios en una economía durante un periodo de tiempo prolongado. 
+    p.mb-5 Es un indicador macroeconómico que se refiere al aumento generalizado y sostenido de los precios de los bienes y servicios, en una economía durante un periodo de tiempo prolongado. 
     .bg-3.mb-5(data-aos="flip-up")
       .row.justify-content-center.align-items-center
         .col-lg-auto.d-none.d-lg-block
             img(src='@/assets/curso/t3/7.png', alt='')
         .col-lg
           .p-4
-            p.mb-0 Este fenómeno implica una pérdida del poder adquisitivo de la moneda, lo que afecta negativamente a los consumidores, pues con la misma cantidad de dinero podrán adquirir menos bienes y servicios.
+            p.mb-0 Este fenómeno implica una pérdida del poder adquisitivo de la moneda, lo que afecta negativamente a los consumidores, pues con la misma cantidad de dinero, podrán adquirir menos bienes y servicios.
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-9
-        p.mb-3 La tasa de inflación se calcula generalmente utilizando índices de precios como el Índice de Precios al Consumidor (IPC), que mide la variación en los precios de una canasta representativa de bienes y servicios consumidos por los hogares.
+        p.mb-3 La tasa de inflación se calcula generalmente utilizando índices de precios como el Índice de Precios al Consumidor (IPC), que mide la variación en los precios de una canasta representativa de bienes y servicios, consumidos por los hogares.
         p.mb-3.bg-6.p-3 La inflación moderada puede ser un signo de una economía en crecimiento, debido a que indica una demanda creciente, pero cuando la inflación es excesiva (hiperinflación), genera inestabilidad económica, disminuyendo el valor de los ahorros y aumentando la incertidumbre (Eggers, 2016).
         p.mb-0 Uno de los compromisos de los gobiernos y los bancos centrales, es el de controlar la inflación a través de políticas monetarias y fiscales. 
       .col-sm-12.col-lg-3.d-none.d-lg-block
@@ -130,7 +130,7 @@
         img(src="@/assets/curso/t3/10.png", alt="")
       .col-sm-12.col-lg-8
         p.mb-3 Es una variable macroeconómica que refleja la cantidad de personas que están dispuestas y disponibles para trabajar, pero que no pueden encontrar empleo. 
-        p.mb-3 La tasa de desempleo es uno de los indicadores más importantes para medir el bienestar de una economía, ya que está directamente relacionado con la capacidad productiva y la eficiencia de los recursos humanos de un país.
+        p.mb-3 La tasa de desempleo es uno de los indicadores más importantes para medir el bienestar de una economía, puesto que está directamente relacionado con la capacidad productiva y la eficiencia de los recursos humanos de un país.
         p.mb-0.fw-bold El desempleo se clasifica en tres categorías: 
 
     .bg-full-width.bg-fondo-slider.mb-5(data-aos="flip-up")
@@ -159,8 +159,8 @@
                 img(src='@/assets/curso/t3/13.png', alt='Texto que describa la imagen')
     
     
-    p.mb-3 Un nivel elevado de desempleo es un signo de una economía ineficiente, afectando negativamente al crecimiento económico conllevando al aumento de la pobreza y generando tensiones sociales.
-    p.mb-3 Caso contrario, un nivel muy bajo de desempleo refleja una economía sobrecalentada, lo que podría llevar a la inflación. 
+    p.mb-3 Un nivel elevado de desempleo es un signo de una economía ineficiente, afectando negativamente al crecimiento económico, conllevando al aumento de la pobreza y generando tensiones sociales.
+    p.mb-3 Caso contrario, un nivel muy bajo de desempleo, refleja una economía sobrecalentada, lo que podría llevar a la inflación. 
     p.mb-5 La política económica debe buscar un equilibrio entre estos extremos, promoviendo el pleno empleo sin generar inflación excesiva (Eggers, 2016).
     .bg-full-width.bg-4.mb-lg-5(data-aos="flip-up")
       .px-4.p-md-5
@@ -184,7 +184,7 @@
 
     #t_3_4.titulo-segundo(data-aos="flip-up")
       h2 #[span 3.4] Balanza de pagos
-    p.mb-5 La balanza de pagos es un registro contable de todas las transacciones económicas realizadas entre un país y el resto del mundo durante un periodo determinado. Esta variable refleja las exportaciones e importaciones de bienes y servicios, los movimientos de capital y la transferencia de recursos entre el país y el exterior. 
+    p.mb-5 La balanza de pagos es un registro contable de todas las transacciones económicas realizadas entre un país y el resto del mundo, durante un periodo determinado. Esta variable refleja las exportaciones e importaciones de bienes y servicios, los movimientos de capital y la transferencia de recursos entre el país y el exterior. 
     p.mb-5 Se divide en dos grandes cuentas: 
     .row.justify-content-center.align-items-stretch.mb-5
       .col-lg-6.mb-4
@@ -198,8 +198,8 @@
           img.custom-image-card__image(src="@/assets/curso/t3/16.png" alt="")
           .custom-image-card__text.p-4
             h4.mb-2 Cuenta de capital y financiera
-            p.mb-0 Muestra los flujos de inversión y financiamiento.
-    p.mb-5 Una balanza de pagos equilibrada es aquella en la que las exportaciones e importaciones están en equilibrio, es decir, el país no tiene un déficit o superávit excesivo. 
+            p.mb-0 Muestra los flujos de inversión y de financiamiento.
+    p.mb-5 Una balanza de pagos equilibrada, es aquella en la que las exportaciones e importaciones están en equilibrio, es decir, el país no tiene un déficit o superávit excesivo. 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-lg-12
         .bg-1.p-4
@@ -207,7 +207,7 @@
             .col-lg-auto.d-none.d-lg-block
               img(src="@/assets/curso/t3/17.svg", style="max-width: 90px").mx-auto
             .col-lg
-              p.mb-0 Un déficit en la balanza de pagos puede generar presión sobre la moneda nacional, porque implica que el país está importando más de lo que exporta y podría necesitar financiamiento externo. Un superávit puede ser muestra de una economía competitiva y saludable, (Sánchez Campillo, 2015).
+              p.mb-0 Un déficit en la balanza de pagos puede generar presión sobre la moneda nacional, porque implica que el país está importando más de lo que exporta y podría necesitar financiamiento externo. Un superávit puede ser muestra de una economía competitiva y saludable (Sánchez Campillo, 2015).
     p.mb-5 El análisis de la balanza de pagos es necesario para la formulación de políticas monetarias y fiscales, permitiendo identificar desequilibrios en la economía externa y prever las consecuencias de los movimientos de capitales y las fluctuaciones del tipo de cambio (Tavera Camacho, 2020).
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-8
@@ -226,8 +226,8 @@
                     i.fas.fa-arrow-right
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-9
-        p.mb-3 Como conclusión, logramos exponer como la macroeconomía y el análisis de sus variables permiten a los gobiernos, instituciones internacionales, empresas y ciudadanos tener una mejor comprensión de los procesos económicos y de cómo afectan al bienestar general. 
-        p.mb-3.bg-6.p-3 El estudio de la interacción de estas variables macroeconómicas y su gestión mediante políticas económicas adecuadas es necesario para asegurar un desarrollo sostenible, evitar crisis económicas y promover una mayor equidad en la distribución de los beneficios del crecimiento económico.  
+        p.mb-3 Como conclusión, logramos exponer como la macroeconomía y el análisis de sus variables, permiten a los gobiernos, instituciones internacionales, empresas y ciudadanos, tener una mejor comprensión de los procesos económicos y de cómo afectan al bienestar general. 
+        p.mb-3.bg-6.p-3 El estudio de la interacción de estas variables macroeconómicas y su gestión mediante políticas económicas adecuadas, es necesario para asegurar un desarrollo sostenible, evitar crisis económicas y promover una mayor equidad en la distribución de los beneficios del crecimiento económico.  
         p.mb-0 Así, la macroeconomía no solo es una herramienta de análisis económico, sino también una base sobre la cual se pueden construir las decisiones políticas y económicas que guían el futuro de las sociedades.
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/t3/18.png', alt='')

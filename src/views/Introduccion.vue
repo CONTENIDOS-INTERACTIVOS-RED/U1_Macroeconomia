@@ -9,8 +9,8 @@
       .col-sm-12.col-lg-7
         p.mb-3 La macroeconomía es una rama de la economía que se encarga del estudio de fenómenos y procesos económicos a gran escala. En esta unidad, se presentarán los conceptos esenciales de la macroeconomía, los cuales son indispensables para entender cómo funcionan las economías nacionales y globales. En un contexto económico global, es considerable que los estudiantes reconozcan la importancia de los indicadores macroeconómicos, tales como el Producto Interno Bruto (PIB), la inflación, el desempleo y la balanza de pagos, dado que estos proporcionan información para la comprensión de los factores determinantes en el funcionamiento económico del país y del mundo.
         .bg-1.p-3
-          p.mb-3 El resultado de aprendizaje de esta unidad se fundamente en que los estudiantes puedan comprender los conceptos básicos de la macroeconomía y desarrollen la capacidad de reconocer la relevancia de los indicadores macroeconómicos, en la evaluación de la economía. 
-          p.mb-0 Para esto, se organiza el estudio de esta unidad a través de subtemas que permiten profundizar el tema principal: “Introducción a la macroeconomía”.
+          p.mb-3 El resultado de aprendizaje de esta unidad, se fundamente en que los estudiantes puedan comprender los conceptos básicos de la macroeconomía y desarrollen la capacidad de reconocer la relevancia de los indicadores macroeconómicos, en la evaluación de la economía. 
+          p.mb-0 Para esto, se organiza el estudio de esta unidad, a través de subtemas que permiten profundizar el tema principal: “Introducción a la macroeconomía”.
     p.mb-3 La estructura de esta unidad se divide en tres subtemas principales:
     .row.justify-content-center.mb-5
       .col-sm-12.col-lg-7

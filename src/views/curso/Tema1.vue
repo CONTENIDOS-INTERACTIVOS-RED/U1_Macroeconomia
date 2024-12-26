@@ -17,7 +17,7 @@
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-8
         .bg-4.p-4
-          p.mb-0.p-4 #[b Según Zevallos Avilés (2016)], la economía se ocupa de los procesos de producción, distribución y consumo de los recursos, bienes y servicios dentro de una sociedad. Es, por tanto, una ciencia social que analiza cómo los individuos, empresas y gobiernos toman decisiones sobre la asignación de recursos en un entorno donde estos son escasos. La economía estudia tanto las decisiones a nivel individual (microeconomía) como a nivel agregado (macroeconomía).
+          p.mb-0.p-4 #[b Según Zevallos Avilés (2016)], la economía se ocupa de los procesos de producción, distribución y consumo de los recursos, bienes y servicios dentro de una sociedad. Es, por tanto, una ciencia social que analiza cómo los individuos, empresas y gobiernos, toman decisiones sobre la asignación de recursos en un entorno donde estos son escasos. La economía estudia tanto las decisiones a nivel individual (microeconomía) como a nivel agregado (macroeconomía).
       .col-sm-12.col-lg-4.d-none.d-lg-block
           img(src='@/assets/curso/t1/2.png', alt='')
 
@@ -46,7 +46,7 @@
           div(titulo="Tierra")
             p.mb-0 Este factor incluye todos los recursos naturales que proporciona la naturaleza. En este sentido, abarca no solo la tierra cultivable o el suelo urbanizable, sino también otros recursos como los minerales, los recursos hídricos, los forestales, los eólicos, la luz solar, entre otros. Algunos de estos recursos son #[b no renovables], como el petróleo, lo que implica que su disponibilidad está limitada (Zevallos Avilés, 2016).
           div(titulo="Capital")
-            p.mb-0 El capital se refiere a los bienes producidos por el ser humano para incrementar el nivel de producción. Entre estos bienes se encuentran las fábricas, edificios, naves industriales, maquinaria, herramientas, tractores y demás elementos empleados en la producción. El proceso de producir y acumular estos bienes es lo que se conoce como inversión. A diferencia de los bienes de consumo (como ropa, alimentos o vehículos), los bienes de capital o de #[b inversión], no están destinados a satisfacer necesidades humanas directamente, sino a ser utilizados en la producción de otros bienes. (Zevallos Avilés, 2016).
+            p.mb-0 El capital se refiere a los bienes producidos por el ser humano para incrementar el nivel de producción. Entre estos bienes se encuentran las fábricas, edificios, naves industriales, maquinaria, herramientas, tractores y demás elementos empleados en la producción. El proceso de producir y acumular estos bienes, es lo que se conoce como inversión. A diferencia de los bienes de consumo (como ropa, alimentos o vehículos), los bienes de capital o de #[b inversión], no están destinados a satisfacer necesidades humanas directamente, sino a ser utilizados en la producción de otros bienes. (Zevallos Avilés, 2016).
           div(titulo="Trabajo")
             p.mb-0 Este factor engloba todos los recursos humanos que se pueden emplear en la producción de bienes y servicios. Esto incluye tanto las capacidades físicas como intelectuales de las personas, como el obrero de la construcción, el médico, el profesor universitario, entre otros. Sin embargo, dentro del trabajo, existe un recurso especial conocido como la #[b capacidad empresarial], que se refiere a aquellas personas especializadas en maximizar los beneficios de las empresas, mediante la toma de decisiones estratégicas en el proceso productivo (Zevallos Avilés, 2016).
     p.mb-5(data-aos="flip-up") Así mismo, el concepto de economía puede abordarse desde diferentes perspectivas, dependiendo de cómo se interprete el papel de los recursos y las necesidades humanas. Estas perspectivas son:
@@ -65,10 +65,10 @@
                 img(src="@/assets/curso/t1/7.png")
             .col-lg-7
               h5 Objetiva
-              p.mb-0 Desde una perspectiva objetiva, la economía se enfoca en las leyes que rigen la producción, circulación, distribución y consumo de los bienes materiales dentro de un período histórico determinado. En este enfoque, se analiza cómo la sociedad organiza los procesos productivos y distributivos para satisfacer las necesidades humanas en función de los recursos disponibles. Engels definió la economía, desde este punto de vista, como "la ciencia que estudia las leyes que rigen la producción, circulación, distribución y consumo de los bienes materiales de vida en un período históricamente determinado" (Tavera Camacho, 2020, p. 15).
+              p.mb-0 Desde una perspectiva objetiva, la economía se enfoca en las leyes que rigen la producción, circulación, distribución y consumo de los bienes materiales, dentro de un período histórico determinado. En este enfoque, se analiza cómo la sociedad organiza los procesos productivos y distributivos para satisfacer las necesidades humanas en función de los recursos disponibles. Engels definió la economía, desde este punto de vista, como "la ciencia que estudia las leyes que rigen la producción, circulación, distribución y consumo de los bienes materiales de vida en un período históricamente determinado" (Tavera Camacho, 2020, p. 15).
     .bg-2.py-4.px-4.mb-5(data-aos="flip-up")
       p.mb-0 Ambos enfoques, subjetivo y objetivo, son fundamentales para comprender la economía, puesto que ambos subrayan dos puntos claves: primero, que los bienes son escasos, y segundo, que la sociedad debe organizar su producción para satisfacer las necesidades humanas y procurar el bienestar colectivo.
-    p.mb-5(data-aos="flip-up") A partir de estas ideas, se puede analizar cómo la sociedad genera y emplea recursos, así como también tratar de comprender la realidad económica al integrar todos los aspectos vinculados a las actividades económicas.
+    p.mb-5(data-aos="flip-up") A partir de estas ideas, se puede analizar cómo la sociedad genera y emplea recursos, así como también tratar de comprender la realidad económica, al integrar todos los aspectos vinculados a las actividades económicas.
 
     .row.justify-content-center.align-items-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-8
@@ -94,7 +94,7 @@
         .row.justify-content-center.align-items-center
           .col-lg-7
             h2.mb-4  Macroeconomía
-            p.mb-4 La macroeconomía es una disciplina esencial para comprender cómo se determinan variables fundamentales como el nivel de producción, el empleo, los precios y las relaciones internacionales de un país. Este campo de estudio, establecido formalmente con las aportaciones de John Maynard Keynes, permite analizar los grandes agregados económicos y diseñar políticas que fomenten el crecimiento económico, la estabilidad de precios y el bienestar social. En el PDF #[b Macroeconomía], se estudiarán conceptos clave, teorías y herramientas necesarias para interpretar las dinámicas económicas, evaluar tendencias y entender su impacto en la vida cotidiana de las personas
+            p.mb-4 La macroeconomía es una disciplina esencial para comprender cómo: se determinan variables fundamentales como el nivel de producción, el empleo, los precios y las relaciones internacionales de un país. Este campo de estudio, establecido formalmente con las aportaciones de John Maynard Keynes, permite analizar los grandes agregados económicos y diseñar políticas que fomenten el crecimiento económico, la estabilidad de precios y el bienestar social. En el PDF #[b Macroeconomía], se estudiarán conceptos clave, teorías y herramientas necesarias, para interpretar las dinámicas económicas, evaluar tendencias y entender su impacto en la vida cotidiana de las personas
 
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
@@ -127,7 +127,7 @@
       .col-sm-12.col-lg-4
         img(src="@/assets/curso/t1/9.png")
       .col-sm-12.col-lg-8
-        p.mb-0 Dando continuidad al concepto de macroeconomía y de acuerdo con la explicación de su campo de acción, su principal objetivo es el análisis del funcionamiento de la economía en su conjunto, con un enfoque particular en las fluctuaciones a corto plazo de la producción, el ingreso y la inversión. 
+        p.mb-0 Dando continuidad al concepto de macroeconomía y de acuerdo con la explicación de su campo de acción, su principal objetivo es el análisis del funcionamiento de la economía en su conjunto, con un enfoque particular en las fluctuaciones a corto plazo, de la producción, el ingreso y la inversión. 
 
     .row.justify-content-center.mb-5(data-aos="flip-up")
       .col-sm-12.col-lg-8
