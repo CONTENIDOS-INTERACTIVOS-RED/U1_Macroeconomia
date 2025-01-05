@@ -232,6 +232,11 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/t3/18.png', alt='')
 
+
+    .bg-full-width.border-top.actividad.ctn-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario='cuestionario'/>
 </template>
 
 <script>
@@ -241,6 +246,174 @@ export default {
   components: {
     BannerInterno,
   },
+  data: () => ({
+    cuestionario: {
+      tema: 'Variables macroeconómicas',
+      titulo: 'Ponte a prueba',
+      introduccion:
+        'Demuestra lo que aprendiste en esta unidad y pon a prueba tus conocimientos.',
+      barajarPreguntas: true,
+      preguntas: [
+        {
+          id: 1,
+          texto: '¿Cuál es el principal objetivo de la macroeconomía?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto:
+                'Estudiar el comportamiento individual de los consumidores',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Analizar el funcionamiento de la economía en su conjunto',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Examinar los precios de productos específicos',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Investigar las decisiones de empresas individuales',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            '¡Muy bien! La macroeconomía se enfoca en estudiar la economía a gran escala, considerando factores como el PIB, el desempleo y la inflación. Este enfoque permite comprender los ciclos económicos y la política económica global.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 2,
+          texto: 'La balanza de pagos se divide principalmente en:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Importaciones y exportaciones únicamente',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cuenta corriente y cuenta de capital y financiera',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Bienes y servicios solamente',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Deuda externa e interna',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Elección correcta. La balanza de pagos es un resumen de todas las transacciones económicas entre un país y el resto del mundo, dividiéndose en estos dos componentes fundamentales: la cuenta corriente y la cuenta de capital y financiera.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 3,
+          texto:
+            '¿Qué tipo de desempleo refleja el tiempo de transición entre empleos o cambios en las condiciones laborales?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Desempleo estructural',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Desempleo friccional',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Desempleo cíclico',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Desempleo voluntario',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto:
+            'Correcto, este tipo de desempleo ocurre en cambios de condiciones laborales.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 4,
+          texto:
+            'El PIB se puede calcular mediante los siguientes enfoques, EXCEPTO:',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Enfoque de producción',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Enfoque de ingreso',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Enfoque del gasto',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Enfoque de la inflación',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Muy bien, el PIB no se calcula con el enfoque de la inflación, sino a través de los enfoques de producción, ingreso y gasto. La inflación es un fenómeno relacionado, pero no es una forma de medir el PIB directamente.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál de los siguientes NO es un factor de producción en economía?',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Tierra',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Capital',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Trabajo',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Inflación',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto:
+            'Es correcto. La inflación no es un factor de producción. Los factores de producción son la tierra, el capital y el trabajo, que son esenciales para la producción de bienes y servicios.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+      ],
+      mensaje_final_aprobado: '¡Felicidades! Has superado la prueba con éxito.',
+      mensaje_final_reprobado:
+        'Te recomendamos repasar nuevamente la unidad para reforzar los conceptos clave antes de volver a intentarlo.',
+    },
+  }),
   mounted() {
     this.$nextTick(() => {
       this.$aosRefresh()
@@ -248,9 +421,3 @@ export default {
   },
 }
 </script>
-
-<style lang="sass">
-.material-complementario
-  padding-top: 3rem
-  border-top: 9px solid $color-sistema-e
-</style>
