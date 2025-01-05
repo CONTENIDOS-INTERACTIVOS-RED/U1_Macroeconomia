@@ -190,7 +190,40 @@
                         span Descargar
                         i.fas.fa-arrow-right
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://repositorio.cepal.org/server/api/core/bitstreams/246ecdf1-a96f-41d7-9966-78c5f89ac8f0/content' target='_blank' rel='noopener noreferrer') Ffrench-Davis, R. (2010). Macroeconomía para el desarrollo: desde el "financierismo" al "productivismo". Revista Cepal, 102, pp.7-27.
+            
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.redalyc.org/articulo.oa?id=425942413004' target='_blank' rel='noopener noreferrer') Gutiérrez Andrade, O. & Zurita Moreno, A. (2006). Sobre la inflación. PERSPECTIVAS, 9(3), pp. 81-115.
+          
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.imf.org/es/Home' target='_blank' rel='noopener noreferrer') Fondo Monetario Internacional
 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.coursehero.com/' target='_blank' rel='noopener noreferrer') CourseHero
+          
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/ybIqORM7BGc?si=zDfcDci3cl-Fs28' target='_blank' rel='noopener noreferrer') 
+                | Solopapelyboli. (2023). Cálculo del PIB. YouTube.
+ 
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     
 </template>
 

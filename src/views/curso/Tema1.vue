@@ -164,7 +164,36 @@
             .col-lg
               p.mb-0 Estos objetivos son alcanzados a través de políticas económicas implementadas por los gobiernos, tales como el manejo del ingreso y gasto público, la política monetaria y la política fiscal. Además, la macroeconomía tiene aplicaciones prácticas dentro de la toma de decisiones gubernamentales y las estrategias de las empresas para abordar y corregir los problemas financieros y desequilibrios económicos, mejorando así el bienestar de la sociedad en su conjunto (Tavera Camacho, 2020).
 
-
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://repositorio.cepal.org/server/api/core/bitstreams/246ecdf1-a96f-41d7-9966-78c5f89ac8f0/content' target='_blank' rel='noopener noreferrer') Ffrench-Davis, R. (2010). Macroeconomía para el desarrollo: desde el "financierismo" al "productivismo". Revista Cepal, 102, pp.7-27.
+            
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.banrep.gov.co/es' target='_blank' rel='noopener noreferrer') Banco de la República Colombia
+ 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.canva.com/' target='_blank' rel='noopener noreferrer') Canva
+            
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/F7ubOpGbdbs?si=Nina31XI8wL6ASom' target='_blank' rel='noopener noreferrer') 
+                | Agencia Audiovisual (2018). ¿Qué es la macroeconomía? (video). YouTube.
+ 
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
 
 
 

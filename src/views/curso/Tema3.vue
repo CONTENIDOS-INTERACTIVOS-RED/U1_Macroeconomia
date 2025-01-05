@@ -232,7 +232,36 @@
       .col-sm-12.col-lg-3.d-none.d-lg-block
         img(src='@/assets/curso/t3/18.png', alt='')
 
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2 MATERIAL COMPLEMENTARIO
+        .row.material-complem
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+            //- Referencia con enlace 
+           
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/book.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.redalyc.org/articulo.oa?id=425942413004' target='_blank' rel='noopener noreferrer') Gutiérrez Andrade, O. & Zurita Moreno, A. (2006). Sobre la inflación. PERSPECTIVAS, 9(3), pp. 81-115.
+            
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://datos.bancomundial.org/indicador' target='_blank' rel='noopener noreferrer') Banco Mundial
+           
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style='{"max-width":"16px"}')
+              a(href='https://www.perplexity.ai/' target='_blank' rel='noopener noreferrer') Perplexity
 
+            //- Referencia de youtube 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style='{"max-width":"16px"}')
+              a(href='https://youtu.be/RET50ZTLrUA?si=oHVVJJZeL-E7_yJ' target='_blank' rel='noopener noreferrer') 
+                | Solopapelyboli. (2024). La balanza de pagos. YouTube.
+    
+            
+          .col-12.col-md-6.col-lg-3.offset-lg-1.d-none.d-lg-block
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
     .bg-full-width.border-top.actividad.ctn-actividad
       .p-4.p-md-5
         #Actividad                
